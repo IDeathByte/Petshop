@@ -1,0 +1,299 @@
+body {
+    font-family: Montserrat;
+}
+
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover {
+    color: green;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__logo {
+    height: 50px;
+    width: 150px;
+}
+
+.header__content {
+    max-width: 965px;
+    min-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.header__phone {
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    color: #669933;
+    font-size: 24px;
+}
+
+.header__phone:before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 0;
+    height: 100%;
+    width: 25px;
+    background-image: url('https://use.fontawesome.com/releases/v5.0.10/svgs/solid/phone-square.svg');
+}
+
+.header_navibar {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+.header_navibar-item {
+    font-size: 18px;
+    font-weight: 500;
+    color: #669933;
+    text-decoration: none;
+}
+
+.header_navibar-item+.header_navibar-item {
+    margin-left: 20px;
+}
+
+.header_right-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.slick-galery {
+
+    background-color: #ffffff;
+    margin: auto;
+
+}
+
+.slick-arrow {
+    z-index: 100;
+}
+
+.galery-item {
+    display: block;
+    max-width: 965px;
+    min-width: 600px;
+    max-height: 300px;
+    width: 100%;
+    margin: auto;
+}
+
+.galery{
+    max-width: 965px;
+    margin: auto;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_content {
+    max-width: 965px;
+    min-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+}
+
+#about_us {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #669933;
+}
+
+.about_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+    max-width: 450px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.about_photo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 480px;
+    max-height: 200px;
+    width: 100%;
+}
+
+.info_field {
+    display: flex;
+    flex-direction: row;
+    max-width: 1366px;
+    max-height: 350px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 100%;
+    background-color: #669933;
+    width: 100%;
+    margin: auto;
+}
+
+.field {
+    max-width: 965px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.info_field_content {
+    color: white;
+    max-width: 245px;
+    max-height: 350px;
+    text-align: center;
+    margin: auto;
+}
+
+#shares {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #669933;
+    padding-top: 25px
+}
+
+.shares {
+    max-width: 1366px;
+    max-height: 2750px;
+    margin: auto;
+    height: 100%;
+    padding-bottom: 25px;
+}
+
+.shares_image {
+    max-width: 965px;
+    max-height: 380px;
+    min-width: 600px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.shops {
+    max-width: 1366px;
+    max-height: 555px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #e8e8e8;
+
+}
+
+#shops {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #669933;
+    padding-top: 25px;
+
+}
+
+.map {
+    max-width: 1360px ;
+    max-height: 430px;
+    margin: auto;
+    width: 100%;
+}
+
+.contacts {
+    max-width: 965px;
+    max-height: 600px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+#contacts {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #669933;
+    padding-top: 25px;
+}
+
+.contacts_content {
+    max-width: 965px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.contacts_item {
+    max-width: 290px;
+    text-align: left;
+    margin: auto;
+}
+
+.bottom_menu {
+    display: flex;
+    flex-direction: column;
+    max-width: 1365px;
+    max-height: 150px;
+    min-width: 600px;
+    background-color: #484848;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.bottom_navibar {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.bottom_navibar_item {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
